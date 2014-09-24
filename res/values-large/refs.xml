@@ -1,0 +1,9 @@
+<resources>
+
+    <!--
+    	Riemërim i layout që të zëvendësojë single-pane layout me two-pane layout nëse
+    	ekrani është më i madh (tablet)
+    -->
+    <item name="activity_item_list" type="layout">@layout/activity_item_twopane</item>
+
+</resources>
