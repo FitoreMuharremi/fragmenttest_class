@@ -5,10 +5,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-
 import com.example.fragmenttest.dummy.DummyContent;
+import com.squareup.picasso.Picasso;
 
 /**
  * Fragmenti i cili shfaq‘ detalet n‘ ekran
@@ -47,7 +48,11 @@ public class ItemDetailFragment extends Fragment {
 
         // Shfaq p‘rmbajtjen n‘ TextView
         if (mItem != null) {
-            ((TextView) rootView.findViewById(R.id.item_detail)).setText(mItem.content);
+            ((TextView) rootView.findViewById(R.id.teksti)).setText(mItem.content);
+            ImageView fotografia = (ImageView) rootView.findViewById(R.id.fotografia);
+            Picasso.with(getActivity()).load("http://artprojects.me/wp-content/uploads/2013/08/Picasso-Mural.jpg").into(fotografia);
+
+            
         }
 
         return rootView;

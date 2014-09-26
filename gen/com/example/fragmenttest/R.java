@@ -1095,12 +1095,12 @@ containing a value of this type.
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
+        public static final int fotografia=0x7f05003e;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
-        public static final int item_detail=0x7f05003e;
         public static final int item_detail_container=0x7f05003c;
         public static final int item_list=0x7f05003d;
         public static final int listMode=0x7f050001;
@@ -1129,6 +1129,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
+        public static final int teksti=0x7f05003f;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
@@ -1187,18 +1188,12 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_item_detail=0x7f030018;
         /** 
-    Layout alias to replace the single-pane version of the layout with a
-    two-pane version on Large screens.
-
-    For more on layout aliases, see:
-    http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
+    	Riemërim i layout që të zëvendësojë single-pane layout me two-pane layout nëse
+    	ekrani është më i madh (tablet)
     
 
-    Layout alias to replace the single-pane version of the layout with a
-    two-pane version on Large screens.
-
-    For more on layout aliases, see:
-    http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
+    	Riemërim i layout që të zëvendësojë single-pane layout me two-pane layout nëse
+    	ekrani është më i madh (tablet)
     
          */
         public static final int activity_item_list=0x7f030019;
